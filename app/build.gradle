@@ -1,14 +1,13 @@
-
 plugins {
     id 'com.android.application'
 }
 
 android {
-    namespace 'vn.tom.viettrung'
+    namespace 'vn.tom93.viettrung'
     compileSdk 35
 
     defaultConfig {
-        applicationId 'vn.tom.viettrung'
+        applicationId 'vn.tom93.viettrung'
         minSdk 23
         targetSdk 35
         versionCode 1
