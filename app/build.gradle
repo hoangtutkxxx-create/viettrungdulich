@@ -1,0 +1,21 @@
+
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'vn.tom.viettrung'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'vn.tom.viettrung'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
+
+dependencies {
+    implementation 'com.belerweb:pinyin4j:2.5.1'
+}
